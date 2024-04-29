@@ -12,7 +12,6 @@ import Subjectstab from "./pages/Subjects/Subjectstab";
 
 const Main = () => {
   return (
-    <UserContextProvider>
       <Router>
         <Routes>
           <Route path="/Dashboard" element={<Dashboard />} />
@@ -25,7 +24,6 @@ const Main = () => {
           <Route path="/Forgot" element={<Forgot />} />
         </Routes>
       </Router>
-    </UserContextProvider>
   );
 };
 
